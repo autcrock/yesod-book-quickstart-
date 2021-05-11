@@ -42,6 +42,12 @@ dependencies:
 - case-insensitive
 - wai
 - foreign-store
+- esqueleto
+- persistent-postgresql
+- persistent-odbc
+- persistent-odbc >= 0.2.1.1
+- HDBC-odbc >= 2.6.0.0
+- concurrent-extra
 
 # The library contains all of our application code. The executable
 # defined below is just a thin wrapper.
